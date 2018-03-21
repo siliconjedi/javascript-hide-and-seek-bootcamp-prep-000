@@ -12,6 +12,6 @@ function increaseRankBy(n) {
   for (let i = 0; i < ranks.length; i++) {
     var oldRank = parseInt(ranks[i].innerHTML);
     console.log(oldRank);
-    ranks[i] = oldRank + n;
+    ranks[i].innerHTML = oldRank + n;
   }
 }
