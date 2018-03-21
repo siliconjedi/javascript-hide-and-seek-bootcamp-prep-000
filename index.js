@@ -6,3 +6,7 @@ function nestedTarget() {
   var nestedHolder = document.querySelector("#nested");
   return nestedHolder.querySelector(".target");
 }
+
+function increaseRankBy(n) {
+  
+}
