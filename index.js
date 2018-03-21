@@ -23,5 +23,5 @@ function deepestChild() {
     oldQ = q;
     q = q.querySelector("div");
   }
-  return oldQ.innerHTML;
+  return q.innerHTML;
 }
